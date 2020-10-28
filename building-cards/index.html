@@ -10,11 +10,30 @@
     
     <link rel="stylesheet" type="text/css" href="css/style.css"> 
 
-    <title>Hello, world!</title>
+    <title>CSS Bootstrap framework</title>
   </head>
 
+
   <body>
+  <div class="d-flex" id="wrapper">
+    <!-- Sidebar -->
+    <div class="sidebar border mt-5 ml-3">
+        <div class="list-group list-group-flush">
+          <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
+          <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
+          <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
+          <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
+          <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
+          <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+        </div>
+      </div>
+
+
+
+
+    <!-- Main content -->
     <div class="card-deck">
+
         <div class="col-md-3 mt-5">
             <div class="card">
                 <div class="text-center">
@@ -22,7 +41,9 @@
                 <h5 class="title">A title for this Card <br />on Two Lines</h5>
                 <p class="text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <hr style="width:40%" />
-                <a href="#" class="btn btn-secondary" alt="button">LEARN MORE</a>        
+                <button class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Put some text in here">
+                    LEARN MORE
+                </button>
                 </div>
             </div>
         </div>
@@ -34,7 +55,9 @@
                 <h5 class="title">A title for this Card <br />on Two Lines</h5>
                 <p class="text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <hr style="width:40%" />
-                <a href="#" class="btn btn-secondary">LEARN MORE</a>        
+                <button class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Put some text in here">
+                    LEARN MORE
+                </button>
                 </div>
             </div>
         </div>
@@ -46,7 +69,9 @@
                 <h5 class="title">A title for this Card <br />on Two Lines</h5>
                 <p class="text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <hr style="width:40%" />
-                <a href="#" class="btn btn-secondary">LEARN MORE</a>        
+                <button class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Put some text in here">
+                    LEARN MORE
+                </button>
                 </div>
             </div>
         </div>
@@ -58,7 +83,9 @@
                 <h5 class="title">A title for this Card <br />on Two Lines</h5>
                 <p class="text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <hr style="width:40%" />
-                <a href="#" class="btn btn-secondary">LEARN MORE</a>        
+                <button class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Put some text in here">
+                    LEARN MORE
+                </button>
                 </div>
             </div>
         </div>
@@ -70,7 +97,9 @@
                 <h5 class="title">A title for this Card <br />on Two Lines</h5>
                 <p class="text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <hr style="width:40%" />
-                <a href="#" class="btn btn-secondary">LEARN MORE</a>        
+                <button class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Put some text in here">
+                    LEARN MORE
+                </button>
                 </div>
             </div>
         </div>
@@ -82,7 +111,9 @@
                 <h5 class="title">A title for this Card <br />on Two Lines</h5>
                 <p class="text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <hr style="width:40%" />
-                <a href="#" class="btn btn-secondary">LEARN MORE</a>        
+                <button class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Put some text in here">
+                    LEARN MORE
+                </button>
                 </div>
             </div>
         </div>
@@ -94,7 +125,9 @@
                 <h5 class="title">A title for this Card <br />on Two Lines</h5>
                 <p class="text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <hr style="width:40%" />
-                <a href="#" class="btn btn-secondary">LEARN MORE</a>        
+                <button class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Put some text in here">
+                    LEARN MORE
+                </button>
                 </div>
             </div>
         </div>
@@ -106,7 +139,9 @@
                 <h5 class="title">A title for this Card <br />on Two Lines</h5>
                 <p class="text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <hr style="width:40%" />
-                <a href="#" class="btn btn-secondary">LEARN MORE</a>        
+                <button class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Put some text in here">
+                    LEARN MORE
+                </button>
                 </div>
             </div>
         </div>
@@ -118,5 +153,5 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
