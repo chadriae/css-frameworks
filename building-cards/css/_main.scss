@@ -1,0 +1,40 @@
+//variables 
+$textcolor: #545A63;
+$bgcolor: #D6E6FF;
+$font: 'Roboto', sans-serif;
+
+
+//main css
+body {
+    background-color: $bgcolor;
+    color: $textcolor;
+    font-family: $font;
+}
+
+.btn {
+        border-radius: 25px;
+        background-color: transparent;
+        border: none;
+        font-weight: bolder;
+        color: $textcolor;
+        margin: 0 0 30px 0;
+        padding: 7px 40px 7px 40px;    
+    &:hover {
+        background-color: #3045E6;
+    }    
+}
+
+.card{
+
+    &:hover {
+        box-shadow: 0 0 20px rgba(33,33,33,.2); 
+    } 
+    .img{
+        width: 5vw;
+        height: 5vw;
+        margin: 30px 0 30px 0;    
+    }   
+    .text {
+        padding: 0 25px 0 25px;
+    }
+}
