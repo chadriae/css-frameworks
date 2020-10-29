@@ -1,4 +1,4 @@
 # css-frameworks
 
 - [Building cards in style](building-cards)
-- [Grid away, grid ahoy!] (grid-away)
+- [Grid away, grid ahoy!](grid-away)
